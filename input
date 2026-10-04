@@ -1,0 +1,1 @@
+mkdir -p /home/claude/rt/persona /home/claude/rt/tests && python3 --version && python3 -c "import aiohttp; print('aiohttp', aiohttp.__version__)" 2>&1 | tail -1; python3 -c "import anthropic; print('anthropic', anthropic.__version__)" 2>&1 | tail -1; node --version 2>&1 | head -1
